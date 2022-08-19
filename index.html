@@ -1,3 +1,7 @@
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,16 +15,14 @@
 
 <body>
     <form class="form" id="form">
-        <h4 class="score" id="score">score:0</h4>
-        <h1 id="question"> What is 1 multiply by 1?</h1>
-        <input type="text" class="input" id="input" placeholder="Enter your answer" autofocus autocomplete="off">
-        <button type="submit" class="btn">Submit</button>
-
-
-
-    </form>
-    <script src="index.js
-    "></script>
+        <h4 class="score" >score:<span id="scoreId">0</span></h4>
+        <h1> What is <span id="num1">0</span> multiply by <span id="num2">0</span> ?</h1>
+              <input type="text" class="input" id="input" placeholder="Enter your answer" autofocus autocomplete="off">
+              <button id="submitAns" class="btn">Submit</button>
+          </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <script src="index.js"></script>
 </body>
 
 </html>
